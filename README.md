@@ -107,7 +107,7 @@ bun install
 
 | Light Mode | Dark Mode |
 |------------|-----------|
-| ![Light](/screenshots/loadl.png) | ![Dark](/screenshots/loadd.png) |
+| ![Light](/screenshots/loadli.png) | ![Dark](/screenshots/loadda.png) |
 
 
 
