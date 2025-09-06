@@ -43,13 +43,17 @@ pnpm install
 bun install
 ```
 ### 3. Run the development server
-```bash npm run dev```
+``` bash npm run dev
+
+```
+
 
 
 ## Now open http://localhost:3000  in your browser 🚀
 
 ### 4. Build for production 
-```bash npm run build npm start ```
+
+``` bash npm run build npm start ```
 
 ### 📂 Project Structure
 - /app              → Next.js app router pages
