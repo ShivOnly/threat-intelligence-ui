@@ -98,7 +98,7 @@ Here are a few screenshots of the threat-intelligence-ui (images):
 ## 📸 Screenshots
 
 **Dashboard Overview:**  
-![Dashboard Overview](/screenshots/dashboard.png)
+![Dashboard Overview Light & Dark ](/screenshots/dashboard.png)(/screenshots/2dashboard.png)
 
 **IOC Summary & Charts:**  
 ![Charts Summary](/screenshots/charts.png)
