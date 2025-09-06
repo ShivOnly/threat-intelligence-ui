@@ -98,13 +98,14 @@ Here are a few screenshots of the threat-intelligence-ui (images):
 ## 📸 Screenshots
 
 **Dashboard Overview:**  
-![Dashboard Overview](/Users/shivthapa/threat-intelligence-ui/screenshots/localhost_3000_ (1).png)
+![Dashboard Overview](/screenshots/dashboard.png)
 
 **IOC Summary & Charts:**  
-![Charts Summary](/screenshots/localhost_3000_ (2).png)
+![Charts Summary](/screenshots/charts.png)
 
 **Filtering & Interactive List:**  
-![Filtering & List](/screenshots/localhost_3000_ (1).png)
+![Filtering & List](/screenshots/filtering.png)
+
 
 
 
