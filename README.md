@@ -52,19 +52,23 @@ bun install
 ```bash npm run build npm start ```
 
 ### 📂 Project Structure
- /app              → Next.js app router pages
- /components       → Reusable UI components (Summary, IOCList, Chart, Filters)
- /lib              → Helper functions (e.g., data fetchers)
- /store            → Zustand state management
- /public           → Static assets (logos, icons, etc.)
+- /app              → Next.js app router pages
+
+- /components       → Reusable UI components (Summary, IOCList, Chart, Filters)
+
+- /lib              → Helper functions (e.g., data fetchers)
+
+- /store            → Zustand state management
+
+- /public           → Static assets (logos, icons, etc.)
 
 📊 Example IOC Summary
 
-Total IOCs: 24
-Critical: 7
-High: 6
-Medium: 6
-Low: 5
+-Total IOCs: 24
+-Critical: 7
+-High: 6
+-Medium: 6
+-Low: 5
 (Charts update dynamically based on filters.)
 
 ### 🚀 Deployment
@@ -73,10 +77,10 @@ Low: 5
 
 # Push your repo to GitHub
 
-# Go to Vercel
+- Go to Vercel
  → Import project
-# Done 🎉
-# Or deploy locally:
+- Done 🎉
+- Or deploy locally:
 
 ```bash npm run build npm start ```
 ### 🤝 Contributing
