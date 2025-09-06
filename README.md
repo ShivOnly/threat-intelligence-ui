@@ -104,8 +104,9 @@ Here are a few screenshots of the threat-intelligence-ui (images):
 |------------|-----------|
 | ![Dashboard Light](/screenshots/dashboard.png) | ![Dashboard Dark](/screenshots/2dashboard.png) |
 
-**IOC Summary & Charts:**  
-![Charts Summary](/screenshots/charts.png)
+| Light Mode | Dark Mode |
+|------------|-----------|
+| ![Dashboard Light](/screenshots/configlight.png) | ![Dashboard Dark](/screenshots/configdark.png) |
 
 **Filtering & Interactive List:**  
 ![Filtering & List](/screenshots/filtering.png)
