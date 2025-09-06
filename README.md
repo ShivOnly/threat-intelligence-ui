@@ -92,10 +92,7 @@ bun install
     npm run build npm start 
 ```
 
-### 📸 Screenshots
 
-Here are a few screenshots of the threat-intelligence-ui (images):
-## 📸 Screenshots
 
 **Dashboard Overview:**  
 ## 📸 Screenshots
@@ -108,9 +105,9 @@ Here are a few screenshots of the threat-intelligence-ui (images):
 |------------|-----------|
 | ![Light](/screenshots/configlight.png) | ![Dark](/screenshots/configdark1.png) |
 
-**Filtering & Interactive List:**  
-![Filtering & List](/screenshots/filtering.png)
-
+| Light Mode | Dark Mode |
+|------------|-----------|
+| ![Light](/screenshots/loadl.png) | ![Dark](/screenshots/loadd.png) |
 
 
 
