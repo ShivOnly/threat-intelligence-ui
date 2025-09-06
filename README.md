@@ -88,7 +88,9 @@ bun install
 - Done 🎉
 - Or deploy locally:
 
-```bash npm run build npm start ```
+```bash 
+    npm run build npm start 
+```
 ### 🤝 Contributing
 
 # Contributions are welcome! Feel free to open issues or pull requests.
