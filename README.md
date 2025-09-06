@@ -91,6 +91,24 @@ bun install
 ```bash 
     npm run build npm start 
 ```
+
+### 📸 Screenshots
+
+Here are a few screenshots of the threat-intelligence-ui (images):
+## 📸 Screenshots
+
+**Dashboard Overview:**  
+![Dashboard Overview](/screenshots/localhost_3000_(1).png)
+
+**IOC Summary & Charts:**  
+![Charts Summary](/screenshots/localhost_3000_(2).png)
+
+**Filtering & Interactive List:**  
+![Filtering & List](/screenshots/localhost_3000_(3).png)
+
+
+
+Filtering & Interactive List:
 ### 🤝 Contributing
 
 # Contributions are welcome! Feel free to open issues or pull requests.
