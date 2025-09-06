@@ -32,63 +32,53 @@ It provides a clean and interactive interface to view and analyze **Indicators o
 ```bash
 git clone https://github.com/ShivOnly/threat-intelligence-ui.git
 cd threat-intelligence-ui
-2. Install dependencies
- bash npm install
+```
+### 2. Install dependencies
+``` bash npm install
 # or
 yarn install
 # or
 pnpm install
 # or
 bun install
+```
+### 3. Run the development server
+```bash npm run dev```
 
-3. Run the development server
-npm run dev
 
+## Now open http://localhost:3000  in your browser 🚀
 
-Now open http://localhost:3000
- in your browser 🚀
+### 4. Build for production 
+```bash npm run build npm start ```
 
-4. Build for production
-npm run build
-npm start
-
-📂 Project Structure
-/app              → Next.js app router pages
-/components       → Reusable UI components (Summary, IOCList, Chart, Filters)
-/lib              → Helper functions (e.g., data fetchers)
-/store            → Zustand state management
-/public           → Static assets (logos, icons, etc.)
+### 📂 Project Structure
+# /app              → Next.js app router pages
+# /components       → Reusable UI components (Summary, IOCList, Chart, Filters)
+# /lib              → Helper functions (e.g., data fetchers)
+# /store            → Zustand state management
+# /public           → Static assets (logos, icons, etc.)
 
 📊 Example IOC Summary
 
-Total IOCs: 15
-
-Critical: 5
-
-High: 4
-
-Medium: 3
-
-Low: 3
-
+Total IOCs: 24
+Critical: 7
+High: 6
+Medium: 6
+Low: 5
 (Charts update dynamically based on filters.)
 
-🚀 Deployment
+### 🚀 Deployment
 
-The easiest way to deploy is with Vercel (from the creators of Next.js):
+## The easiest way to deploy is with Vercel (from the creators of Next.js):
 
-Push your repo to GitHub
+# Push your repo to GitHub
 
-Go to Vercel
+# Go to Vercel
  → Import project
+# Done 🎉
+# Or deploy locally:
 
-Done 🎉
+```bash npm run build npm start ```
+### 🤝 Contributing
 
-Or deploy locally:
-
-npm run build
-npm start
-```
-🤝 Contributing
-
-Contributions are welcome! Feel free to open issues or pull requests.
+# Contributions are welcome! Feel free to open issues or pull requests.
