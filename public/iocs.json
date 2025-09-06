@@ -1,0 +1,28 @@
+[
+  { "value": "1.2.3.4", "type": "ip", "source": "blocklist.de", "severity": "Critical", "timestamp": "2025-08-30T12:00:00Z" },
+  { "value": "5.6.7.8", "type": "ip", "source": "blocklist.de", "severity": "High", "timestamp": "2025-08-30T12:05:00Z" },
+  { "value": "9.10.11.12", "type": "ip", "source": "blocklist.de", "severity": "Medium", "timestamp": "2025-08-30T12:10:00Z" },
+  { "value": "13.14.15.16", "type": "ip", "source": "blocklist.de", "severity": "Low", "timestamp": "2025-08-30T12:15:00Z" },
+  { "value": "17.18.19.20", "type": "ip", "source": "blocklist.de", "severity": "Critical", "timestamp": "2025-05-30T12:20:00Z" } 
+,  { "value": "8.6.11.12", "type": "ip", "source": "blocklist.de", "severity": "Medium", "timestamp": "2025-04-30T12:10:00Z" },
+  { "value": "40.4.15.16", "type": "ip", "source": "blocklist.de", "severity": "Low", "timestamp": "2025-03-30T12:15:00Z" },
+  { "value": "3.19.20", "type": "ip", "source": "blocklist.de", "severity": "Critical", "timestamp": "2025-05-30T12:20:00Z" },
+
+  { "value": "192.168.0.0/24", "type": "subnet", "source": "spamhaus", "severity": "Critical", "timestamp": "2025-08-30T12:00:00Z" },
+  { "value": "10.0.0.0/16", "type": "subnet", "source": "spamhaus", "severity": "High", "timestamp": "2025-08-30T12:05:00Z" },
+  { "value": "172.16.0.0/12", "type": "subnet", "source": "spamhaus", "severity": "Medium", "timestamp": "2025-08-30T12:10:00Z" },
+  { "value": "192.168.100.0/24", "type": "subnet", "source": "spamhaus", "severity": "Low", "timestamp": "2025-05-30T12:15:00Z" },
+  { "value": "10.1.0.0/16", "type": "subnet", "source": "spamhaus", "severity": "High", "timestamp": "2025-05-30T12:20:00Z" },
+  { "value": "172.11.0.0/12", "type": "subnet", "source": "spamhaus", "severity": "Medium", "timestamp": "2025-04-30T12:10:00Z" },
+  { "value": "162.1.100.0/24", "type": "subnet", "source": "spamhaus", "severity": "Low", "timestamp": "2025-03-30T12:15:00Z" },
+  { "value": "16.1.0.0/16", "type": "subnet", "source": "spamhaus", "severity": "High", "timestamp": "2025-05-30T12:20:00Z" },
+
+  { "value": "http://malicious-site.com/virus.exe", "type": "url", "source": "digitalside", "severity": "Critical", "timestamp": "2025-04-30T12:00:00Z" },
+  { "value": "http://badsite.com/malware", "type": "url", "source": "digitalside", "severity": "High", "timestamp": "2025-04-30T12:05:00Z" },
+  { "value": "http://evil.com/phishing", "type": "url", "source": "digitalside", "severity": "Medium", "timestamp": "2025-04-30T12:10:00Z" },
+  { "value": "http://danger.com/attack", "type": "url", "source": "digitalside", "severity": "Low", "timestamp": "2025-03-30T12:15:00Z" },
+  { "value": "http://malware-site.com/download", "type": "url", "source": "digitalside", "severity": "Critical", "timestamp": "2025-04-30T12:20:00Z" }
+  ,{ "value": "http://hackintosh.com/throw", "type": "url", "source": "digitalside", "severity": "Medium", "timestamp": "2025-04-30T12:10:00Z" },
+  { "value": "http://phising.com/loiter", "type": "url", "source": "digitalside", "severity": "Low", "timestamp": "2025-03-30T12:15:00Z" },
+  { "value": "http://scamware-site.com/open", "type": "url", "source": "digitalside", "severity": "Critical", "timestamp": "2025-03-30T12:20:00Z" }
+]
