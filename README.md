@@ -97,15 +97,15 @@ bun install
 **Dashboard Overview:**  
 ## 📸 Screenshots
 
-| Light Mode | Dark Mode |
+| Light Mode Dashboard | Dark Mode Dashboard|
 |------------|-----------|
 | ![Dashboard Light](/screenshots/dashboard.png) | ![Dashboard Dark](/screenshots/2dashboard.png) |
 
-| Light Mode | Dark Mode |
+| Light Mode Config| Dark Mode Config|
 |------------|-----------|
 | ![Light](/screenshots/configlight.png) | ![Dark](/screenshots/configdark1.png) |
 
-| Light Mode | Dark Mode |
+| Light Mode Loading| Dark Mode Loading|
 |------------|-----------|
 | ![Light](/screenshots/loadli.png) | ![Dark](/screenshots/loadda.png) |
 
