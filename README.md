@@ -112,6 +112,6 @@ bun install
 
 
 Filtering & Interactive List:
-### 🤝 Contributing
+### 🤝 Contribute
 
  Contributions are welcome! Feel free to open issues or pull requests.
