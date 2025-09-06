@@ -52,11 +52,11 @@ bun install
 ```bash npm run build npm start ```
 
 ### 📂 Project Structure
-# /app              → Next.js app router pages
-# /components       → Reusable UI components (Summary, IOCList, Chart, Filters)
-# /lib              → Helper functions (e.g., data fetchers)
-# /store            → Zustand state management
-# /public           → Static assets (logos, icons, etc.)
+ /app              → Next.js app router pages
+ /components       → Reusable UI components (Summary, IOCList, Chart, Filters)
+ /lib              → Helper functions (e.g., data fetchers)
+ /store            → Zustand state management
+ /public           → Static assets (logos, icons, etc.)
 
 📊 Example IOC Summary
 
