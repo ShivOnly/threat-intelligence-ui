@@ -53,7 +53,9 @@ bun install
 
 ### 4. Build for production 
 
-``` bash npm run build npm start ```
+``` bash
+    npm run build npm start 
+ ```
 
 ### 📂 Project Structure
 - /app              → Next.js app router pages
