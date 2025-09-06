@@ -106,7 +106,7 @@ Here are a few screenshots of the threat-intelligence-ui (images):
 
 | Light Mode | Dark Mode |
 |------------|-----------|
-| ![Light](/screenshots/configlight.png) | ![Dark](/screenshots/configdark.png) |
+| ![Light](/screenshots/configlight.png) | ![Dark](/screenshots/configdark1.png) |
 
 **Filtering & Interactive List:**  
 ![Filtering & List](/screenshots/filtering.png)
