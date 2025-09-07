@@ -204,66 +204,72 @@ export default function Page() {
 
       {/* Header */}
 <header
-  className="fixed top-0 left-0 w-full h-16 
+  className="fixed top-0 left-0 w-full h-14 sm:h-16 
   backdrop-blur-xl bg-white/30 dark:bg-gray-900/30 
   border-b border-white/20 dark:border-gray-700/40
-  z-50 flex justify-between items-center px-6 shadow-sm"
+  z-50 flex justify-between items-center px-2 sm:px-4 md:px-6 lg:px-8"
 >
-  {/* Dark Mode Toggle */}
-  <label className="relative inline-flex items-center cursor-pointer">
-    <input
-      type="checkbox"
-      checked={darkMode}
-      onChange={toggleDarkMode}
-      className="sr-only peer"
-    />
-    <div className="w-14 h-7 bg-gray-300/40 dark:bg-gray-700/40 rounded-full relative transition-colors duration-300 peer-focus:ring-2 peer-focus:ring-blue-500 backdrop-blur-md">
-      <div
-        className={`absolute top-1 left-1 w-5 h-5 bg-blue-500 rounded-full shadow transform transition-transform duration-300 ${
-          darkMode ? "translate-x-7" : "translate-x-0"
-        }`}
-      ></div>
-    </div>
-  </label>
+  {/* Left: Dark Mode Toggle */}
+  <div className="flex items-center gap-1 sm:gap-3">
+    <label className="relative inline-flex items-center cursor-pointer">
+      <input
+        type="checkbox"
+        checked={darkMode}
+        onChange={toggleDarkMode}
+        className="sr-only peer"
+      />
+      <div className="w-10 h-5 sm:w-12 sm:h-6 bg-gray-300/40 dark:bg-gray-700/40 rounded-full relative transition-colors duration-300 peer-focus:ring-2 peer-focus:ring-blue-500 backdrop-blur-sm">
+        <div
+          className={`absolute top-0.5 left-0.5 w-4 h-4 sm:w-5 sm:h-5 bg-blue-500 rounded-full shadow transform transition-transform duration-300 ${
+            darkMode ? "translate-x-5 sm:translate-x-6" : "translate-x-0"
+          }`}
+        ></div>
+      </div>
+    </label>
+  </div>
 
-  {/* Logo + Title */}
-  <div className="flex items-center gap-3">
+  {/* Center: Logo + Title */}
+  <div className="flex items-center gap-1 sm:gap-3">
     <img
       src="/logo.png"
       alt="Logo"
-      className="w-10 h-10 drop-shadow-lg"
+      className="w-6 h-6 sm:w-10 sm:h-10 md:w-12 md:h-12"
     />
-    <h1 className="text-lg md:text-xl font-extrabold tracking-tight text-blue-900 dark:text-white">
+    <h1 className="text-xs sm:text-sm md:text-lg lg:text-xl font-bold text-blue-900 dark:text-white whitespace-nowrap">
       Threat Intelligence Dashboard
     </h1>
   </div>
 
-  {/* Buttons */}
-  <nav className="flex items-center gap-3">
+  {/* Right: Buttons */}
+  <div className="flex items-center gap-1 sm:gap-2">
     <motion.div {...hoverScaleLink}>
       <Link
         href="/config"
-        className="px-4 py-2 rounded-full bg-white/40 dark:bg-gray-700/40 
-        text-gray-900 dark:text-white shadow-sm border border-white/20"
+        className="px-2 py-1 rounded-full bg-white/40 dark:bg-gray-700/40 text-gray-900 dark:text-white shadow-sm border border-white/20 text-[10px] sm:text-xs md:text-sm lg:text-base flex items-center justify-center"
       >
-        Config
+        <span className="sm:hidden">⚙</span>
+        <span className="hidden sm:inline">Config</span>
       </Link>
     </motion.div>
+
     <motion.button
       {...hoverScaleButton}
       onClick={handleRefresh}
-      className="px-4 py-2 rounded-full bg-blue-500/90 text-white shadow-lg backdrop-blur-md"
+      className="px-2 py-1 rounded-full bg-blue-500/90 text-white shadow-md text-[10px] sm:text-xs md:text-sm lg:text-base flex items-center justify-center"
     >
-      Refresh
+      <span className="sm:hidden">⟳</span>
+      <span className="hidden sm:inline">Refresh</span>
     </motion.button>
+
     <motion.button
       {...hoverScaleButton}
       onClick={handleExport}
-      className="px-4 py-2 rounded-full bg-green-500/90 text-white shadow-lg backdrop-blur-md"
+      className="px-2 py-1 rounded-full bg-green-500/90 text-white shadow-md text-[10px] sm:text-xs md:text-sm lg:text-base flex items-center justify-center"
     >
-      Export CSV
+      <span className="sm:hidden">⬇</span>
+      <span className="hidden sm:inline">Export CSV</span>
     </motion.button>
-  </nav>
+  </div>
 </header>
 
       {/* Side Menu */}
