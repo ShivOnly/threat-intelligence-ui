@@ -41,6 +41,27 @@ const RadialBarChartIOC: React.FC<RadialBarChartIOCProps> = ({
     purple: "bg-purple-500 text-white font-bold",
   };
 
+  // --- Custom Tooltip ---
+  const CustomTooltip = ({ active, payload }: any) => {
+    if (active && payload && payload.length) {
+      const { name, value } = payload[0];
+      return (
+        <div
+          className="p-2 rounded shadow-lg"
+          style={{
+            backgroundColor: darkMode ? "#1f2937" : "#fff",
+            border: darkMode ? "1px solid #374151" : "1px solid #ddd",
+            color: darkMode ? "#fff" : "#000",
+          }}
+        >
+          <p className="font-medium">{name}</p>
+          <p className="font-bold">{value}</p> {/* Value text changes color with darkMode */}
+        </div>
+      );
+    }
+    return null;
+  };
+
   return (
     <div
       className={`w-full rounded-2xl shadow-lg p-4 ${
@@ -63,13 +84,7 @@ const RadialBarChartIOC: React.FC<RadialBarChartIOCProps> = ({
               endAngle={-270}
             >
               <RadialBar dataKey="value" cornerRadius={8} />
-              <Tooltip
-                contentStyle={{
-                  backgroundColor: darkMode ? "#1f2937" : "#fff",
-                  border: darkMode ? "1px solid #374151" : "1px solid #ddd",
-                  color: darkMode ? "#fff" : "#000",
-                }}
-              />
+              <Tooltip content={<CustomTooltip />} />
             </RadialBarChart>
           </ResponsiveContainer>
         </div>
