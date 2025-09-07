@@ -11,11 +11,12 @@
 ---
 
 A modern **Threat Intelligence Dashboard** built with **Next.js, React, TailwindCSS, TypeScript, Recharts, Framer Motion, and Zustand**.  
-It provides a clean and interactive interface to view and analyze **Indicators of Compromise (IOCs)** such as IPs, URLs, and Subnets with charts, summaries, and filters.  
+It provides a clean and interactive interface to view and analyze **Indicators of Compromise (IOCs)** such as IPs, URLs, and Subnets with charts, summaries, and filters. (screenshots provided below)  
 
 ---
 
 ## 🚀 Features
+ 
 - 📊 **Summary Dashboard** – Total IOCs & severity breakdown  
 - 🔍 **IOC Filtering** – Filter by severity or type  
 - 📑 **IOC List** – Interactive IOC table/list  
@@ -64,22 +65,15 @@ bun install
 ### 📂 Project Structure
 - /app              → Next.js app router pages
 
-- /components       → Reusable UI components (Summary, IOCList, Chart, Filters)
+- /components       → Reusable UI components (Loadingskeleton, Alerts, Summary, IOCList, Charts(radial and bar), Filters, ThemeToggle)
 
 - /lib              → Helper functions (e.g., data fetchers)
 
-- /store            → Zustand state management
+- /store            → Zustand state management (useiocstore)
 
 - /public           → Static assets (logos, icons, etc.)
 
-📊 Example IOC Summary
-
--Total IOCs: 24
--Critical: 7
--High: 6
--Medium: 6
--Low: 5
-(Charts update dynamically based on filters.)
+📊 Example and Screenshots are below
 
 ### 🚀 Deployment
 
@@ -112,6 +106,11 @@ bun install
 | Light Mode Loading| Dark Mode Loading|
 |------------|-----------|
 | ![Light](/screenshots/loadli.png) | ![Dark](/screenshots/loadda.png) |
+
+| Light Mode menu| Dark Mode menu|
+|------------|-----------|
+| ![Light](/screenshots/hoverMenuLeft.png) | ![Dark](/screenshots/hoverMenuLeftDark.png) |
+
 
 
 
