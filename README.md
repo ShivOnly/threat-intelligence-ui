@@ -29,6 +29,7 @@ It provides a clean and interactive interface to view and analyze **Indicators o
 ## 🛠️ Getting Started  
 
 ### install Nodejs if not finish all its process and select valid path
+https://nodejs.org
 
 ### 1. Clone the repository  
 ```bash
