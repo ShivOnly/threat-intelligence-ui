@@ -28,13 +28,16 @@ It provides a clean and interactive interface to view and analyze **Indicators o
 
 ## 🛠️ Getting Started  
 
+### install Nodejs if not finish all its process and select valid path
+
 ### 1. Clone the repository  
 ```bash
 git clone https://github.com/ShivOnly/threat-intelligence-ui.git
 cd threat-intelligence-ui
 ```
 ### 2. Install dependencies
-``` bash npm install
+``` bash 
+npm install
 # or
 yarn install
 # or
