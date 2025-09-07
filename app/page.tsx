@@ -200,58 +200,68 @@ export default function Page() {
       )}
 
       {/* Header */}
-      <header className="fixed top-0 left-0 w-full h-16 bg-white dark:bg-gray-900 backdrop-blur-md z-50 flex justify-between items-center px-6 shadow-md">
-        {/* Dark Mode Toggle */}
-        <label className="relative inline-flex items-center cursor-pointer">
-          <input
-            type="checkbox"
-            checked={darkMode}
-            onChange={toggleDarkMode}
-            className="sr-only peer"
-          />
-          <div className="w-14 h-7 bg-gray-200 dark:bg-gray-700 rounded-full relative transition-colors duration-300 peer-focus:ring-2 peer-focus:ring-blue-500">
-            <div
-              className={`absolute top-1 left-1 w-5 h-5 bg-blue-500 rounded-full shadow transform transition-transform duration-300 ${
-                darkMode ? "translate-x-7" : "translate-x-0"
-              }`}
-            ></div>
-          </div>
-        </label>
+<header
+  className="fixed top-0 left-0 w-full h-16 
+  backdrop-blur-xl bg-white/30 dark:bg-gray-900/30 
+  border-b border-white/20 dark:border-gray-700/40
+  z-50 flex justify-between items-center px-6 shadow-sm"
+>
+  {/* Dark Mode Toggle */}
+  <label className="relative inline-flex items-center cursor-pointer">
+    <input
+      type="checkbox"
+      checked={darkMode}
+      onChange={toggleDarkMode}
+      className="sr-only peer"
+    />
+    <div className="w-14 h-7 bg-gray-300/40 dark:bg-gray-700/40 rounded-full relative transition-colors duration-300 peer-focus:ring-2 peer-focus:ring-blue-500 backdrop-blur-md">
+      <div
+        className={`absolute top-1 left-1 w-5 h-5 bg-blue-500 rounded-full shadow transform transition-transform duration-300 ${
+          darkMode ? "translate-x-7" : "translate-x-0"
+        }`}
+      ></div>
+    </div>
+  </label>
 
-        {/* Logo + Title */}
-        <div className="flex items-center gap-3">
-          <img src="/logo.png" alt="Logo" className="w-10 h-10" />
-          <h1 className="text-xl md:text-2xl font-extrabold tracking-tight text-blue-900 dark:text-white">
-            Threat Intelligence Dashboard
-          </h1>
-        </div>
+  {/* Logo + Title */}
+  <div className="flex items-center gap-3">
+    <img
+      src="/logo.png"
+      alt="Logo"
+      className="w-10 h-10 drop-shadow-lg"
+    />
+    <h1 className="text-lg md:text-xl font-extrabold tracking-tight text-blue-900 dark:text-white">
+      Threat Intelligence Dashboard
+    </h1>
+  </div>
 
-        {/* Buttons */}
-        <nav className="flex items-center gap-3">
-          <motion.div {...hoverScaleLink}>
-            <Link
-              href="/config"
-              className="px-4 py-2 rounded-full bg-gray-100 dark:bg-gray-700 text-gray-900 dark:text-white shadow-sm"
-            >
-              Config
-            </Link>
-          </motion.div>
-          <motion.button
-            {...hoverScaleButton}
-            onClick={handleRefresh}
-            className="px-4 py-2 rounded-full bg-blue-500 text-white"
-          >
-            Refresh
-          </motion.button>
-          <motion.button
-            {...hoverScaleButton}
-            onClick={handleExport}
-            className="px-4 py-2 rounded-full bg-green-500 text-white"
-          >
-            Export CSV
-          </motion.button>
-        </nav>
-      </header>
+  {/* Buttons */}
+  <nav className="flex items-center gap-3">
+    <motion.div {...hoverScaleLink}>
+      <Link
+        href="/config"
+        className="px-4 py-2 rounded-full bg-white/40 dark:bg-gray-700/40 
+        text-gray-900 dark:text-white shadow-sm border border-white/20"
+      >
+        Config
+      </Link>
+    </motion.div>
+    <motion.button
+      {...hoverScaleButton}
+      onClick={handleRefresh}
+      className="px-4 py-2 rounded-full bg-blue-500/90 text-white shadow-lg backdrop-blur-md"
+    >
+      Refresh
+    </motion.button>
+    <motion.button
+      {...hoverScaleButton}
+      onClick={handleExport}
+      className="px-4 py-2 rounded-full bg-green-500/90 text-white shadow-lg backdrop-blur-md"
+    >
+      Export CSV
+    </motion.button>
+  </nav>
+</header>
 
       {/* Side Menu */}
       <div
