@@ -22,7 +22,7 @@ It provides a clean and interactive interface to view and analyze **Indicators o
 - 📑 **IOC List** – Interactive IOC table/list  
 - 📈 **Charts & Graphs** – Visualize IOC distribution  
 - 🎨 **Modern UI/UX** – TailwindCSS + Framer Motion animations  
-- 🌗 **Light/Dark Mode** – Smooth theme switching  
+- 🌗 **Light/Dark Mode** – Default light mode(toggle to change into darkmode [top right]), Smooth theme switching  
 - ⚡ **Optimized for Performance** – Next.js App Router  
 - 🐻 **State Management** – Zustand for global store  
 - 🔄 **Refresh & Config Menu** – Live IOC updates  
