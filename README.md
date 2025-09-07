@@ -111,6 +111,12 @@ bun install
 |------------|-----------|
 | ![Light](/screenshots/hoverMenuLeftLi.png) | ![Dark](/screenshots/hoverMenuLeftD.png) |
 
+| Light Mode query?Fix!| Dark Mode query?Fix!|
+|------------|-----------|
+| ![Light](/screenshots/queryLight.png) | ![Dark](/screenshots/queryDark.png) |
+
+
+
 
 
 
