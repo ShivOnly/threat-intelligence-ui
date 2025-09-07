@@ -1,7 +1,9 @@
-"use client";
+"use client"; 
 
 import "./globals.css";
-import { ReactNode, useEffect } from "react";
+import { ReactNode, useState } from "react";
+import ThemeToggle from "../components/ThemeToggle";
+import { FiMenu } from "react-icons/fi";
 import { useIocStore } from "../store/useIocStore";
 
 interface RootLayoutProps {
@@ -9,20 +11,19 @@ interface RootLayoutProps {
 }
 
 export default function RootLayout({ children }: RootLayoutProps) {
-  const { darkMode, fetchIOCs } = useIocStore(); // use store darkMode
-
-  // Fetch IOCs once after component mounts
-  useEffect(() => {
-    fetchIOCs?.();
-  }, [fetchIOCs]);
+  const [darkMode, setDarkMode] = useState(false);
+  const { fetchIOCs } = useIocStore(); // Access fetch function here
 
   return (
-    <html lang="en" className={darkMode ? "dark" : ""}>
+    <html lang="en">
       <body
         className={`min-h-screen transition-colors ${
           darkMode ? "bg-gray-900 text-white" : "bg-blue-50 text-blue-900"
         }`}
       >
+
+
+        {/* Main Content */}
         <main className="p-6">{children}</main>
       </body>
     </html>
