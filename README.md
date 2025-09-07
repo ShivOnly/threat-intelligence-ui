@@ -124,10 +124,12 @@ bun install
 
 
 
+---
+## 👤 Author
 
+This project is developed and maintained by **ShivOnly** ✨
 
-
-Filtering & Interactive List:
+---
 ### 🤝 Contribute
 
  Contributions are welcome! Feel free to open issues or pull requests.
