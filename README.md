@@ -92,29 +92,27 @@ bun install
 
 
 
-**Dashboard Overview:**  
 ## 📸 Screenshots
 
 | Light Mode Dashboard | Dark Mode Dashboard|
 |------------|-----------|
-| ![Dashboard Light](/screenshots/dashboard.png) | ![Dashboard Dark](/screenshots/2dashboard.png) |
+| <img src="/screenshots/dashboard.png" width="400"/> | <img src="/screenshots/2dashboard.png" width="400"/> |
 
 | Light Mode Config| Dark Mode Config|
 |------------|-----------|
-| ![Light](/screenshots/configlight.png) | ![Dark](/screenshots/configdark1.png) |
+| <img src="/screenshots/configlight.png" width="400"/> | <img src="/screenshots/configdark1.png" width="400"/> |
 
 | Light Mode Loading| Dark Mode Loading|
 |------------|-----------|
-| ![Light](/screenshots/loadli.png) | ![Dark](/screenshots/loadda.png) |
+| <img src="/screenshots/loadli.png" width="400"/> | <img src="/screenshots/loadda.png" width="400"/> |
 
 | Light Mode menu| Dark Mode menu|
 |------------|-----------|
-| ![Light](/screenshots/hoverMenuLeftLi.png) | ![Dark](/screenshots/hoverMenuLeftD.png) |
+| <img src="/screenshots/hoverMenuLeftLi.png" width="400"/> | <img src="/screenshots/hoverMenuLeftD.png" width="400"/> |
 
 | Light Mode query?Fix!| Dark Mode query?Fix!|
 |------------|-----------|
-| ![Light](/screenshots/queryLight.png) | ![Dark](/screenshots/queryDark.png) |
-
+| <img src="/screenshots/queryLight.png" width="400"/> | <img src="/screenshots/queryDark.png" width="400"/> |
 
 
 
