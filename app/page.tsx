@@ -277,8 +277,8 @@ export default function Page() {
               className="w-10 h-10 rounded-full object-cover"
             />
             <div>
-              <p className="font-semibold">User</p>
-              <p className="text-xs opacity-70">Dummy</p>
+              <p className="font-semibold">Shiv Thapa</p>
+              <p className="text-xs opacity-70">USER</p>
             </div>
           </div>
 
