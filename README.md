@@ -17,6 +17,7 @@ It provides a clean and interactive interface to view and analyze **Indicators o
 
 ## 🚀 Features
 
+- 🤖 **Responsive UI/UX** - Responsive to any screen size and better optimization of everything within it
 - 📊 **Summary Dashboard** – Total IOCs & severity breakdown  
 - 🔍 **IOC Filtering** – Filter by severity or type  
 - 📑 **IOC List** – Interactive IOC table/list  
@@ -25,15 +26,18 @@ It provides a clean and interactive interface to view and analyze **Indicators o
 - 🌗 **Light/Dark Mode** – Default light mode(toggle to change into darkmode [top right]), Smooth theme switching  
 - ⚡ **Optimized for Performance** – Next.js App Router  
 - 🐻 **State Management** – Zustand for global store  
-- 🔄 **Refresh & Config Menu** – Live IOC updates  
-- 👤 **User Profile + Hover Menu** – Responsive across all devices  
+- 🔄 **Refresh & Config Menu** – Live IOC updates
+- 📁 **ExportCSV** - Export the CSV file of data
+- 👤 **User Profile + Hover Menu** – Responsive across all devices
+- ❓️ **Query & Fixes** - user & admin communication to solve a query related to security or web related 
 - 🪟 **Glassmorphism UI** – Blurred panels & modern design  
 
+(suggest any changes or add-on )
 ---
 
 ## 🛠️ Getting Started  
 
-### install Nodejs if not, then finish all its process and select valid path
+### install Nodejs if not finish all its process and select valid path
 https://nodejs.org
 
 ### 1. Clone the repository  
@@ -79,7 +83,9 @@ bun install
 
 📊 Example and Screenshots are below
 
----
+### 🚀 Deployment
+
+## The easiest way to deploy is with Vercel (from the creators of Next.js):
 
 # Push your repo to GitHub
 
@@ -92,7 +98,7 @@ bun install
     npm run build npm start 
 ```
 
----
+
 
 ## 📸 Screenshots
 
@@ -131,3 +137,4 @@ This project is developed and maintained by **ShivOnly** ✨
 ### 🤝 Contribute
 
  Contributions are welcome! Feel free to open issues or pull requests.
+---
