@@ -33,7 +33,7 @@ It provides a clean and interactive interface to view and analyze **Indicators o
 
 ## 🛠️ Getting Started  
 
-### install Nodejs if not finish all its process and select valid path
+### install Nodejs if not, then finish all its process and select valid path
 https://nodejs.org
 
 ### 1. Clone the repository  
@@ -79,9 +79,7 @@ bun install
 
 📊 Example and Screenshots are below
 
-### 🚀 Deployment
-
-## The easiest way to deploy is with Vercel (from the creators of Next.js):
+---
 
 # Push your repo to GitHub
 
@@ -94,7 +92,7 @@ bun install
     npm run build npm start 
 ```
 
-
+---
 
 ## 📸 Screenshots
 
