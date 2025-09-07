@@ -1,10 +1,11 @@
 interface SummaryCardProps {
   title: string;
   value: number;
-  color?: "blue" | "red" | "yellow" | "green";
+  color?: "blue" | "red" | "yellow" | "green" | "orange";
 }
 
 const colorMap = {
+  orange: "bg-orange-400 text-white font-bold",
   blue: "bg-blue-500 text-white font-bold",
   red: "bg-red-500 text-white font-bold",
   yellow: "bg-yellow-400 text-white font-bold",
