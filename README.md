@@ -109,7 +109,7 @@ bun install
 
 | Light Mode menu| Dark Mode menu|
 |------------|-----------|
-| ![Light](/screenshots/hoverMenuLeft.png) | ![Dark](/screenshots/hoverMenuLeftDark.png) |
+| ![Light](/screenshots/hoverMenuLeftLi.png) | ![Dark](/screenshots/hoverMenuLeftDark.png) |
 
 
 
