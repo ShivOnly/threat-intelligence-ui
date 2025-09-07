@@ -96,23 +96,24 @@ bun install
 
 | Light Mode Dashboard | Dark Mode Dashboard|
 |------------|-----------|
-| <img src="/screenshots/dashboard.png" width="400"/> | <img src="/screenshots/2dashboard.png" width="400"/> |
+| <img src="/screenshots/dashboard.png" width="300"/> | <img src="/screenshots/2dashboard.png" width="300"/> |
 
 | Light Mode Config| Dark Mode Config|
 |------------|-----------|
-| <img src="/screenshots/configlight.png" width="400"/> | <img src="/screenshots/configdark1.png" width="400"/> |
+| <img src="/screenshots/configlight.png" width="300"/> | <img src="/screenshots/configdark1.png" width="300"/> |
 
 | Light Mode Loading| Dark Mode Loading|
 |------------|-----------|
-| <img src="/screenshots/loadli.png" width="400"/> | <img src="/screenshots/loadda.png" width="400"/> |
+| <img src="/screenshots/loadli.png" width="300"/> | <img src="/screenshots/loadda.png" width="300"/> |
 
 | Light Mode menu| Dark Mode menu|
 |------------|-----------|
-| <img src="/screenshots/hoverMenuLeftLi.png" width="400"/> | <img src="/screenshots/hoverMenuLeftD.png" width="400"/> |
+| <img src="/screenshots/hoverMenuLeftLi.png" width="300"/> | <img src="/screenshots/hoverMenuLeftD.png" width="300"/> |
 
 | Light Mode query?Fix!| Dark Mode query?Fix!|
 |------------|-----------|
-| <img src="/screenshots/queryLight.png" width="400"/> | <img src="/screenshots/queryDark.png" width="400"/> |
+| <img src="/screenshots/queryLight.png" width="300"/> | <img src="/screenshots/queryDark.png" width="300"/> |
+
 
 
 
