@@ -110,7 +110,7 @@ bun install
 |------------|-----------|
 | <img src="/screenshots/loadli.png" width="300"/> | <img src="/screenshots/loadda.png" width="300"/> |
 
-| Light Mode menu (hover left of screen edge to open menu)| Dark Mode menu|
+| Light Mode menu <br> (hover left of screen edge to open menu)| Dark Mode menu|
 |------------|-----------|
 | <img src="/screenshots/hoverMenuLeftLi.png" width="300"/> | <img src="/screenshots/hoverMenuLeftD.png" width="300"/> |
 
