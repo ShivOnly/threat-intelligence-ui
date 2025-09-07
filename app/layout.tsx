@@ -1,4 +1,4 @@
-"use client"; // Must be at the top
+"use client"; 
 
 import "./globals.css";
 import { ReactNode, useState } from "react";

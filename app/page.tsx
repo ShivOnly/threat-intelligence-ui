@@ -46,10 +46,12 @@ export default function Page() {
 
   // --- Alerts ---
   const alerts: Alert[] = [
-    { message: "Critical IOC detected: 192.168.1.1", severity: "Critical" },
-    { message: "High IOC detected: malicious.com", severity: "High" },
-    { message: "Medium IOC detected: suspicious.net", severity: "Medium" },
-    { message: "Low IOC detected: test.local", severity: "Low" },
+    { message: "Critical IOC detected: tutududu.dns", severity: "Critical" },
+    { message: "High IOC detected: Verstappen.racing", severity: "High" },
+    { message: "Medium IOC detected: F1racing.net", severity: "Medium" },
+    { message: "Low IOC detected: freeF1race.local", severity: "Low" },
+    { message: "Critical IOC detected: totalsportek.net", severity: "Critical" },
+    { message: "Low IOC detected: wearechecking.local", severity: "Low" },
   ];
 
   const [alertsQueue, setAlertsQueue] = useState<Alert[]>(alerts);

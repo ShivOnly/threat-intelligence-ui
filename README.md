@@ -16,14 +16,18 @@ It provides a clean and interactive interface to view and analyze **Indicators o
 ---
 
 ## 🚀 Features
- 
+
 - 📊 **Summary Dashboard** – Total IOCs & severity breakdown  
 - 🔍 **IOC Filtering** – Filter by severity or type  
 - 📑 **IOC List** – Interactive IOC table/list  
 - 📈 **Charts & Graphs** – Visualize IOC distribution  
 - 🎨 **Modern UI/UX** – TailwindCSS + Framer Motion animations  
+- 🌗 **Light/Dark Mode** – Smooth theme switching  
 - ⚡ **Optimized for Performance** – Next.js App Router  
-- 🐻 **State Management** – Zustand  
+- 🐻 **State Management** – Zustand for global store  
+- 🔄 **Refresh & Config Menu** – Live IOC updates  
+- 👤 **User Profile + Hover Menu** – Responsive across all devices  
+- 🪟 **Glassmorphism UI** – Blurred panels & modern design  
 
 ---
 
