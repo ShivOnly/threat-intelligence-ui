@@ -6,10 +6,10 @@ interface IOCListProps {
 }
 
 const severityColor: Record<IOC["severity"], string> = {
-  Critical: "bg-red-600 text-white font-weight-700",
-  High: "bg-red-400 text-white font-weight-700",
-  Medium: "bg-yellow-400 text-black font-weight-700",
-  Low: "bg-green-400 text-blue font-weight-700",
+  Critical: "bg-red-600 text-white font-semibold",
+  High: "bg-red-400 text-white font-semibold",
+  Medium: "bg-yellow-400 text-black font-semibold",
+  Low: "bg-green-400 text-blue-900 font-semibold",
 };
 
 const IOCList: React.FC<IOCListProps> = ({ iocs }) => {
@@ -39,36 +39,42 @@ const IOCList: React.FC<IOCListProps> = ({ iocs }) => {
   return (
     <div className="bg-blue-50 dark:bg-gray-900 rounded-3xl shadow-inner p-4 mt-6 backdrop-blur-sm">
       <h2 className="text-xl font-semibold mb-3 text-blue-900 dark:text-white">IOC List</h2>
-      <table className="w-full border-collapse rounded-lg overflow-hidden shadow-lg">
-        <thead>
-          <tr className="bg-blue-200 text-blue-900 dark:bg-gray-800 dark:text-white">
-            {["value", "type", "source", "severity", "timestamp"].map((col) => (
-              <th
-                key={col}
-                className="px-4 py-2 text-left cursor-pointer select-none hover:bg-blue-300 dark:hover:bg-gray-700 transition-colors"
-                onClick={() => requestSort(col as keyof IOC)}
-              >
-                {col.charAt(0).toUpperCase() + col.slice(1)}
-                {sortConfig?.key === col ? (sortConfig.direction === "asc" ? " ↑" : " ↓") : ""}
-              </th>
-            ))}
-          </tr>
-        </thead>
-        <tbody>
-          {sortedIOCs.map((ioc, index) => (
-            <tr
-              key={ioc.id ?? index} // Ensure every row has a unique key
-              className="hover:bg-blue-100 dark:hover:bg-gray-700 transition-colors"
-            >
-              <td className="px-4 py-2 font-mono">{ioc.value}</td>
-              <td className="px-4 py-2">{ioc.type}</td>
-              <td className="px-4 py-2">{ioc.source}</td>
-              <td className={`px-4 py-2 font-semibold rounded ${severityColor[ioc.severity]}`}>{ioc.severity}</td>
-              <td className="px-4 py-2">{new Date(ioc.timestamp).toLocaleString()}</td>
+      
+      {/* Responsive wrapper for horizontal scroll */}
+      <div className="overflow-x-auto">
+        <table className="w-full min-w-[600px] border-collapse rounded-lg overflow-hidden shadow-lg">
+          <thead>
+            <tr className="bg-blue-200 text-blue-900 dark:bg-gray-800 dark:text-white">
+              {["value", "type", "source", "severity", "timestamp"].map((col) => (
+                <th
+                  key={col}
+                  className="px-3 sm:px-4 py-2 text-left cursor-pointer select-none hover:bg-blue-300 dark:hover:bg-gray-700 transition-colors text-sm sm:text-base"
+                  onClick={() => requestSort(col as keyof IOC)}
+                >
+                  {col.charAt(0).toUpperCase() + col.slice(1)}
+                  {sortConfig?.key === col ? (sortConfig.direction === "asc" ? " ↑" : " ↓") : ""}
+                </th>
+              ))}
             </tr>
-          ))}
-        </tbody>
-      </table>
+          </thead>
+          <tbody>
+            {sortedIOCs.map((ioc, index) => (
+              <tr
+                key={ioc.id ?? index}
+                className="hover:bg-blue-100 dark:hover:bg-gray-700 transition-colors text-sm sm:text-base"
+              >
+                <td className="px-3 sm:px-4 py-2 font-mono">{ioc.value}</td>
+                <td className="px-3 sm:px-4 py-2">{ioc.type}</td>
+                <td className="px-3 sm:px-4 py-2">{ioc.source}</td>
+                <td className={`px-3 sm:px-4 py-2 font-semibold rounded ${severityColor[ioc.severity]}`}>
+                  {ioc.severity}
+                </td>
+                <td className="px-3 sm:px-4 py-2">{new Date(ioc.timestamp).toLocaleString()}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
     </div>
   );
 };
