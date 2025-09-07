@@ -114,6 +114,10 @@ bun install
 |------------|-----------|
 | <img src="/screenshots/queryLight.png" width="300"/> | <img src="/screenshots/queryDark.png" width="300"/> |
 
+| Light Mode glassmorphism in head | Dark Mode glassmorphism in head|
+|------------|-----------|
+| <img src="/screenshots/glassLig.png" width="300"/> | <img src="/screenshots/glassDark.png" width="300"/> |
+
 
 
 
