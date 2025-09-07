@@ -6,3 +6,8 @@
 body {
   @apply bg-blue-100 dark:bg-gray-900;
 }
+
+/* Hide Next.js dev badge in development mode */
+#__next_dev_badge {
+  display: none !important;
+}
